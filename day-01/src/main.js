@@ -1,6 +1,6 @@
 new Vue({
-  el: '#app',
+  el: "#app",
   data: {
-    greeting: 'Hello World!',
+    greeting: "Hello World!",
   },
 });

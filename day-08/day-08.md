@@ -45,7 +45,7 @@ In the template, we’ll look to bind the `message` directly and also bind the `
         </header>
       </div>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -103,7 +103,7 @@ The method is given a name of `reverseString` and expects a payload. We can decl
         </header>
       </div>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -165,7 +165,7 @@ In the template, we can render the value of the `reverseMessage` computed proper
         </header>
       </div>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>

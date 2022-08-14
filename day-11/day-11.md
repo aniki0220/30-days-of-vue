@@ -113,7 +113,7 @@ By binding the information of just the first `tweet` object on to the template, 
         </div>
       </div>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -182,7 +182,7 @@ Our aim is to show a tweet element for every single `tweet` object available in 
         </div>
       </div>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -285,7 +285,7 @@ With the component created, we’ll now be able to render the component in the r
         v-for="tweet in tweets" :key="tweet.id">
       </tweet-component>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>

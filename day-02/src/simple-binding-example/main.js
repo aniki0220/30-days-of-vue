@@ -3,6 +3,6 @@ new Vue({
   data: {
     greeting: 'Hello World!',
     user: 'Hassan Djirdeh',
-    city: 'Toronto'
+    city: 'Toronto...'
   }
 });

@@ -34,7 +34,7 @@ We've introduced `user` and `city` data properties that have values of `'Hassan 
       <h2>{{ greeting }}</h2>
       <p>by {{ user }} who lives in {{ city }}</p>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -70,7 +70,7 @@ Let’s see an example of data reactivity. To help facilitate a change in data, 
       <p>by {{ user }} who lives in {{ city }}</p>
       <button>Change Greeting</button>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -140,7 +140,7 @@ The **v-on** directive is one of the many native Vue directives available to us 
         Change Greeting
       </button>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>

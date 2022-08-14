@@ -82,7 +82,7 @@ In the code samples prepared in the first and second articles, we used the Musta
       <h2>{{ greeting }}</h2>
       <p>by {{ user }} who lives in {{city}}</p>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -131,7 +131,7 @@ To see an example of conditional rendering, let’s first add a button to our pr
         Change City
       </button>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>

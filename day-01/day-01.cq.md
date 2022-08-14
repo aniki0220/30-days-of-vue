@@ -48,7 +48,7 @@ In the simplest way possible, we can get started working with Vue by placing a s
 ```html
 <html>
   <body>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -87,7 +87,7 @@ To have the `greeting` data value be presented in the template, we’ll first ne
     <div id="app">
       <!--  where our Vue template code will live -->
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>

@@ -119,7 +119,7 @@ We'll now create the template and use the **v-model** directive to bind the appr
         </button>
       </div>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>

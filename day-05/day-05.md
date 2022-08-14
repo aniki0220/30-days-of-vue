@@ -42,7 +42,7 @@ Let’s see a very simple example of this in practice. Assume we have a template
         <li>10000</li>
       </ul>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -80,7 +80,7 @@ We could avoid repeating the `<li>` element in the template and instead have the
         <li v-for="number in numbers">{{ number }}</li>
       </ul>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -123,7 +123,7 @@ Let’s see an example of this. Instead of rendering just the `number` content w
         </li>
       </ul>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -147,7 +147,7 @@ Assume we wanted to introduce another new feature into our app. This feature wou
       </ul>
       <button @click="shuffle">Shuffle!</button>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/lodash/lodash.js">
     </script>
@@ -234,7 +234,7 @@ In the template, we’ll now reference `number.value` as the text content that w
       </ul>
       <button @click="shuffle">Shuffle!</button>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/lodash/lodash.js">
     </script>

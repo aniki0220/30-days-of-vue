@@ -42,7 +42,7 @@ Let’s see a very simple example of this in practice. Assume we have a template
         <li>10000</li>
       </ul>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -102,7 +102,7 @@ Let’s see an example of this. Instead of rendering just the `number` content w
         </li>
       </ul>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>

@@ -64,7 +64,7 @@ Here’s a code sample that shows some different event listeners with different 
       <input v-on:keyup.enter="alertEnterGreeting" 
              placeholder="Type and release Enter" />
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -126,7 +126,7 @@ In the code samples prepared in the first and second articles, we used the Musta
       <h2>{{ greeting }}</h2>
       <p>by {{ user }} who lives in {{city}}</p>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -150,7 +150,7 @@ Here’s an example of using the **v-bind** directive to bind a data property (n
       <p>by {{ user }} who lives in {{ city }}</p>
       <img v-bind:src="cityImage" />
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -199,7 +199,7 @@ To see an example of conditional rendering, let’s first add a button to our pr
         Change City
       </button>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -252,7 +252,7 @@ If we wanted to render some content in _certain conditions_ (e.g. when `city ===
       <img v-bind:src="cityImage" />
       <button v-on:click="changeCity">Change City</button>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
@@ -290,7 +290,7 @@ Instead of the **v-if** directive, we could also use the **v-show** directive to
       <img v-bind:src="cityImage" />
       <button v-on:click="changeCity">Change City</button>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
